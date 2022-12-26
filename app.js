@@ -32,11 +32,12 @@
 
 // console.log(4 + +"5");
 
-let a = 10,
-    b = 10;
+// let a = 10,
+//     b = 10;
 
-a++;
-b--;
+// a++;
+// b--;
 
-console.log(--);
-console.log(b);
+// console.log(a);
+// console.log(b);
+
