@@ -41,3 +41,21 @@
 // console.log(a);
 // console.log(b);
 
+// 1.
+const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?');
+// console.log(numberOfFilms);
+// 2.
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
+// 3.
+const a = prompt('Один из последних просмотренных фильмов'),
+b = prompt('На сколько оцените его?');
+personalMovieDB.movies[a] = b;
+
+console.log(personalMovieDB);
+
